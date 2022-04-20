@@ -45,11 +45,13 @@ const CheckboxContainer = css`
 
   & .pastel-icon {
     position: absolute;
-    top: 3px;
+    top: -1px;
     left: 3px;
     font-size: 12px;
     line-height: 12px;
     color: var(--pure-white);
+    transition: top 0.25s;
+    opacity: 0;
   }
 
   &:not(.${CheckboxDisabled}):hover {
@@ -61,6 +63,10 @@ const CheckboxActive = css`
   &.${CheckboxContainer} {
     border: none;
     background-color: var(--primary-4);
+  }
+  & .pastel-icon {
+    top: 3px;
+    opacity: 1;
   }
 `;
 const CheckboxInput = css`
@@ -98,7 +104,7 @@ const Checkbox: ForwardRefRenderFunction<HTMLInputElement, PropsWithChildren<Che
   return (
     <label htmlFor={id} className={cx(CheckboxLabelContainer, className)}>
       <span className={cx(CheckboxContainer, value && CheckboxActive, disabled && CheckboxDisabled)}>
-        {value && <Check />}
+        <Check />
         <input
           ref={ref}
           id={id}
