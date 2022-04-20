@@ -1,0 +1,8 @@
+node_modules/
+.next/
+build/
+icons/*.d.ts
+icons/*.js
+icons/*.map
+*.tsbuildinfo
+yarn-error.log
