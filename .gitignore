@@ -6,3 +6,4 @@ icons/*.js
 icons/*.map
 *.tsbuildinfo
 yarn-error.log
+out/
