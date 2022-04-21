@@ -94,6 +94,8 @@ export async function babel(fileName: string, global = false) {
   });
   const a = await transformAsync(code, {
     filename: fileName,
+    comments: false,
+    compact: "auto",
     presets: [
       [
         idkPreset,

@@ -1,7 +1,9 @@
+import React, { useState } from "react";
 import { Divider, Menu, MenuItem, Submenu, Sidebar, SidebarItem } from "../build";
 import { Projects, Dashboard, Add } from "../icons";
 
 const MenuPage = () => {
+  const [a, setA] = useState<string[]>(["2", "7"]);
   return (
     <div style={{ display: "flex", gap: 12, flexDirection: "column" }}>
       <h2>Sidebar</h2>
@@ -19,7 +21,11 @@ const MenuPage = () => {
       </div>
       <h2>Menu</h2>
       <div>
-        <Menu activeKeys={["2", "7"]}>
+        <Menu
+          activeKeys={a}
+          onChange={(e) => {
+            setA(e);
+          }}>
           <Submenu id={"1"} title={"Shift Counts"} />
           <Submenu id={"2"} title={"Temperature"}>
             <MenuItem id={"6"}>BBOR 1</MenuItem>

@@ -1,16 +1,60 @@
 import { css, cx } from "@linaria/core";
-import React, { createContext, memo, PropsWithChildren, useContext, useMemo } from "react";
+import { createContext, memo, PropsWithChildren, useCallback, useContext, useEffect, useMemo, useRef } from "react";
 import "../global";
 
-interface ActiveKeys {
-  ids: React.Key[];
-  depth: number;
+const KeyRegistryContext = createContext<ReturnType<typeof useKeyRegistry>>(null as any);
+
+function useKeyRegistry() {
+  const keys2path = useRef(new Map<string, string>());
+  const paths2key = useRef(new Map<string, string>());
+  const register = useCallback((key: string, path: string) => {
+    keys2path.current.set(key, path);
+    paths2key.current.set(path, key);
+  }, []);
+
+  const unregister = useCallback((key: string, path: string) => {
+    keys2path.current.delete(key);
+    paths2key.current.delete(path);
+  }, []);
+
+  const getKeys = useCallback(() => {
+    return [...keys2path.current.keys()];
+  }, []);
+
+  const getSubPathKeys = useCallback((key: string) => {
+    const path = `${keys2path.current.get(key)}/`;
+
+    const keyPaths = new Set<string>();
+
+    [...paths2key.current.entries()].forEach(([k, v]) => {
+      if (k.startsWith(path!)) {
+        keyPaths.add(v);
+      }
+    });
+    return keyPaths;
+  }, []);
+
+  const getKeyPath = useCallback((key: string) => {
+    return keys2path.current.get(key)!;
+  }, []);
+
+  return {
+    register,
+    unregister,
+    getKeys,
+    getSubPathKeys,
+    getKeyPath,
+  };
 }
 
-const ActiveKeysContext = createContext<ActiveKeys>({
-  ids: [],
-  depth: 0,
-});
+interface ActiveKeys {
+  ids: string[];
+  depth: number;
+  onChange: (e: string) => void;
+  parents: string[];
+}
+
+const ActiveKeysContext = createContext<ActiveKeys>(null as any);
 
 const BasicMenu = css`
   background-color: var(--pure-white);
@@ -29,39 +73,74 @@ const InternalMenu: React.FC<PropsWithChildren<InternalMenuProps>> = ({ classNam
   return <ul className={cx(BasicMenu, className)}>{children}</ul>;
 };
 
+function getParentKeyFromPath(path: string): string | undefined {
+  const paths = path.split("/");
+  paths.pop();
+  return paths.pop();
+}
+
 export type MenuProps = {
   className?: string;
-  activeKeys?: React.Key[];
+  activeKeys?: string[];
+  onChange?: (e: string[]) => void;
 };
 
-const Menu: React.FC<PropsWithChildren<MenuProps>> = ({ className, activeKeys, children }) => {
+const Menu: React.FC<PropsWithChildren<MenuProps>> = ({ className, activeKeys, children, onChange }) => {
+  const keyRegistry = useKeyRegistry();
   const rootValue: ActiveKeys = useMemo(() => {
     return {
       ids: activeKeys ?? [],
       depth: 0,
+      parents: [],
+      onChange: (id: string) => {
+        if (activeKeys?.includes(id)) {
+          return;
+        }
+
+        const path = keyRegistry.getKeyPath(id);
+        const parent = getParentKeyFromPath(path);
+        if (!parent) {
+          onChange?.([id]);
+        } else {
+          const keys = keyRegistry.getSubPathKeys(parent);
+          const shouldAddBack = !activeKeys?.includes(id);
+          const ids = (activeKeys ?? []).filter((a) => !keys.has(a));
+          if (shouldAddBack) {
+            ids.push(id);
+          }
+
+          onChange?.(ids);
+        }
+      },
     };
-  }, [activeKeys]);
+  }, [activeKeys, onChange]);
   return (
     <ActiveKeysContext.Provider value={rootValue}>
-      <InternalMenu className={className}>{children}</InternalMenu>
+      <KeyRegistryContext.Provider value={keyRegistry}>
+        <InternalMenu className={className}>{children}</InternalMenu>
+      </KeyRegistryContext.Provider>
     </ActiveKeysContext.Provider>
   );
 };
+
+const BasicMenuItemActive = css``;
 
 const BaseMenuItem = css`
   cursor: pointer;
   display: block;
   font-size: 14px;
   line-height: 16px;
-  font-weight: 500;
+  font-weight: 400;
   position: relative;
+
+  & .${BasicMenuItemActive} {
+    font-weight: 500;
+  }
 `;
 
 const BasicMenuItem = css`
   padding: 4px 4px;
 `;
-
-const BasicMenuItemActive = css``;
 
 const MenuItemInner = css`
   display: flex;
@@ -99,23 +178,42 @@ const BasicMenuItemInner = css`
   }
 `;
 
-function useIsActive(id?: React.Key): boolean {
-  const activeKeys = useContext(ActiveKeysContext);
-
-  return useMemo(() => {
-    return id ? activeKeys.ids.includes(id) : false;
-  }, [id, activeKeys]);
-}
-
 export type MenuItemProps = {
   className?: string;
-  id?: React.Key;
+  id?: string;
   icon?: React.ReactNode;
+  onClick?: (e: React.MouseEvent) => void;
 };
-const MenuItem: React.FC<PropsWithChildren<MenuItemProps>> = ({ className, id, icon, children }) => {
-  const isActive = useIsActive(id);
+const MenuItem: React.FC<PropsWithChildren<MenuItemProps>> = ({ className, id, icon, children, onClick: _onClick }) => {
+  const activeKeys = useContext(ActiveKeysContext);
+  const keyRegistry = useContext(KeyRegistryContext);
+
+  // eslint-disable-next-line consistent-return
+  useEffect(() => {
+    if (id) {
+      const path = "/" + [...activeKeys.parents, id].join("/");
+      keyRegistry.register(id, path);
+      return () => {
+        keyRegistry.unregister(id, path);
+      };
+    }
+  }, [id]);
+
+  const isActive = useMemo(() => {
+    return id ? activeKeys.ids.includes(id) : false;
+  }, [id, activeKeys]);
+  const onClick = useCallback(
+    (e: React.MouseEvent) => {
+      if (id) {
+        activeKeys.onChange(id);
+      }
+
+      _onClick?.(e);
+    },
+    [_onClick, activeKeys.ids, activeKeys.onChange, id, keyRegistry]
+  );
   return (
-    <li className={cx(BaseMenuItem, BasicMenuItem, className)}>
+    <li className={cx(BaseMenuItem, BasicMenuItem, className)} onClick={onClick}>
       <span className={cx(MenuItemInner, BasicMenuItemInner, isActive && BasicMenuItemActive)}>
         {icon}
         <span>{children}</span>
@@ -129,12 +227,12 @@ const BasicSubmenu = css`
   margin: 0;
   padding: 0;
   list-style-type: none;
-
   border-left: 1px solid var(--button-disabled);
 `;
 
 const SubmenuActiveItem = css`
   color: var(--primary-4);
+  font-weight: 500;
 `;
 
 const SubmenuTitle = css`
@@ -143,15 +241,162 @@ const SubmenuTitle = css`
   }
 `;
 
+const SubmenuInnerMenuHidden = css`
+  display: none;
+`;
+
+type SubmenuInnerMenuProps = {
+  active?: boolean;
+};
+
+const ANIMATION_DURATION = 500;
+
+function easeInOutQuint(x: number): number {
+  return x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2;
+}
+
+function clamp(input: number, min: number, max: number): number {
+  return Math.min(Math.max(input, min), max);
+}
+
+/**
+ * This component is used to implement the collapsible effect within the submenu
+ */
+
+const SubmenuInnerMenu: React.FC<PropsWithChildren<SubmenuInnerMenuProps>> = ({ children, active }) => {
+  const activeKeys = useContext(ActiveKeysContext);
+  const depth = activeKeys.depth * 18 - 1;
+  /// We don't actually want to animate on the first render.
+  const isMounted = useRef(false);
+  /// The reference to the actual node that we will be animating.
+  const ref = useRef<HTMLUListElement>(null);
+  /// The time that we started an animation, used to calcate the animation duration.
+  const animationStartTime = useRef<number | null>(null);
+  useEffect(() => {
+    /// Regardless of what animation we are doing, the need to set the current start timestamp.
+    animationStartTime.current = Date.now();
+    /// If this is the first render we skip any animation.
+    if (!isMounted.current) {
+      return () => {};
+    }
+
+    /// This is the cancelation token to cancel any animation that is occuring,
+    /// in the event that another animation is triggered.
+    let cancel: number;
+
+    function animateCore(fn: (progress: number) => void, done: () => void) {
+      /// Next we calculate the progress of the animation from 0 to 1,
+      /// using the current time and the time the animation started.
+      const absoluteProgress = clamp((Date.now() - animationStartTime.current!) / ANIMATION_DURATION, 0, 1);
+      /// Using that progress we throw it into an easing function to smooth things out.
+      const currentProgress = easeInOutQuint(absoluteProgress);
+      /// Using this new eased progress we can get the real height of the submenu.
+      fn(currentProgress);
+      if (currentProgress !== 1) {
+        cancel = requestAnimationFrame(() => {
+          animateCore(fn, done);
+        });
+      } else {
+        done();
+      }
+    }
+
+    if (active) {
+      if (ref.current) {
+        /// Start off the reveal animation by setting our initial height to 0
+        /// and clearing the hidden class if it's there.
+        ref.current.style.height = "0px";
+        ref.current!.classList.remove(SubmenuInnerMenuHidden);
+
+        animateCore(
+          (progress) => {
+            /// We get the current target height that we want to animate to,
+            /// using scrollHeight to get the actual height with overflow caclulated.
+            const targetHeight = ref.current!.scrollHeight;
+            /// Using this new eased progress we can get the real height of the submenu.
+            const realHeight = targetHeight * progress;
+            ref.current!.style.height = `${realHeight}px`;
+          },
+          () => {
+            ref.current!.style.height = "";
+          }
+        );
+      }
+    } else {
+      if (ref.current) {
+        /// start our animation by manually setting height to the actual height.
+        ref.current.style.height = `${ref.current.scrollHeight}px`;
+        animateCore(
+          (progress) => {
+            /// We get the current target height that we want to animate to,
+            /// using scrollHeight to get the actual height with overflow caclulated.
+            const targetHeight = ref.current!.scrollHeight;
+            /// Using that progress we throw it into an easing function to smooth things out.
+            /// We also invert to the get the inverse progress.
+            const currentProgress = 1 - progress;
+            /// Using this new eased progress we can get the real height of the submenu.
+            const realHeight = targetHeight * currentProgress;
+            ref.current!.style.height = `${realHeight}px`;
+          },
+          () => {
+            ref.current!.style.height = "";
+            ref.current!.classList.add(SubmenuInnerMenuHidden);
+          }
+        );
+      }
+    }
+
+    return () => {
+      /// When there is a transition between states,
+      /// if there is any animation currently running
+      /// we cancel it.
+      if (cancel) {
+        cancelAnimationFrame(cancel);
+      }
+
+      /// Reset the height of the node
+      ref.current!.style.height = "";
+
+      /// And if we weren't active, we add the hidden class back in.
+      if (!active) {
+        ref.current!.classList.add(SubmenuInnerMenuHidden);
+      }
+    };
+  }, [active]);
+
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      isMounted.current = true;
+    });
+  }, []);
+  return (
+    <ul ref={ref} className={cx(BasicSubmenu)} style={{ marginLeft: depth }}>
+      {children}
+    </ul>
+  );
+};
+
 export type SubmenuProps = {
   className?: string;
-  id: React.Key;
+  id: string;
   title?: React.ReactNode;
   icon?: React.ReactNode;
 };
 
 const Submenu: React.FC<PropsWithChildren<SubmenuProps>> = ({ className, id, icon, children, title }) => {
   const activeKeys = useContext(ActiveKeysContext);
+  const keyRegistry = useContext(KeyRegistryContext);
+
+  // eslint-disable-next-line consistent-return
+  useEffect(() => {
+    if (id) {
+      const path = "/" + [...activeKeys.parents, id].join("/");
+      keyRegistry.register(id, path);
+      return () => {
+        keyRegistry.unregister(id, path);
+      };
+    }
+  }, [id]);
 
   const isActive = useMemo(() => {
     return activeKeys.ids.includes(id);
@@ -161,30 +406,39 @@ const Submenu: React.FC<PropsWithChildren<SubmenuProps>> = ({ className, id, ico
     return {
       ids: activeKeys.ids,
       depth: activeKeys.depth + 1,
+      parents: [...activeKeys.parents, id],
+      onChange: activeKeys.onChange,
     };
-  }, [activeKeys]);
+  }, [activeKeys, id]);
 
-  const depth = root.depth * 18 - 1;
-  if (!isActive) {
-    return (
-      <MenuItem className={className} id={id} icon={icon}>
-        {title}
-      </MenuItem>
-    );
-  }
+  const onClick = useCallback(() => {
+    root.onChange(id);
+  }, [id, root.onChange]);
 
   return (
     <ActiveKeysContext.Provider value={root}>
-      <li className={cx(BaseMenuItem, className)}>
-        <span className={cx(MenuItemInner, SubmenuActiveItem, SubmenuTitle)}>
+      <li
+        className={cx(
+          BaseMenuItem,
+          css`
+            background-color: var(--gray-1);
+          `,
+          className
+        )}>
+        <span
+          className={cx(
+            css`
+              background-color: #fff;
+            `,
+            MenuItemInner,
+            isActive && SubmenuActiveItem,
+            SubmenuTitle
+          )}
+          onClick={onClick}>
           {icon}
           <span>{title}</span>
         </span>
-        {children && (
-          <ul className={BasicSubmenu} style={{ marginLeft: depth }}>
-            {children}
-          </ul>
-        )}
+        <SubmenuInnerMenu active={isActive}>{children}</SubmenuInnerMenu>
       </li>
     </ActiveKeysContext.Provider>
   );
