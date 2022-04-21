@@ -144,6 +144,7 @@ const BasicMenuItem = css`
 
 const MenuItemInner = css`
   display: flex;
+  flex: 1;
   flex-direction: row;
   align-items: center;
   padding: 4px 8px;
@@ -236,8 +237,9 @@ const SubmenuActiveItem = css`
 `;
 
 const SubmenuTitle = css`
-  &.${MenuItemInner} {
-    padding: 8px 12px;
+  border-radius: 6px;
+  &:not(.${SubmenuActiveItem}):hover {
+    background-color: var(--gray-2);
   }
 `;
 
@@ -251,8 +253,8 @@ type SubmenuInnerMenuProps = {
 
 const ANIMATION_DURATION = 500;
 
-function easeInOutQuint(x: number): number {
-  return x < 0.5 ? 16 * x * x * x * x * x : 1 - Math.pow(-2 * x + 2, 5) / 2;
+function easeOutQuint(x: number): number {
+  return 1 - Math.pow(1 - x, 5);
 }
 
 function clamp(input: number, min: number, max: number): number {
@@ -289,7 +291,7 @@ const SubmenuInnerMenu: React.FC<PropsWithChildren<SubmenuInnerMenuProps>> = ({ 
       /// using the current time and the time the animation started.
       const absoluteProgress = clamp((Date.now() - animationStartTime.current!) / ANIMATION_DURATION, 0, 1);
       /// Using that progress we throw it into an easing function to smooth things out.
-      const currentProgress = easeInOutQuint(absoluteProgress);
+      const currentProgress = easeOutQuint(absoluteProgress);
       /// Using this new eased progress we can get the real height of the submenu.
       fn(currentProgress);
       if (currentProgress !== 1) {
@@ -354,12 +356,14 @@ const SubmenuInnerMenu: React.FC<PropsWithChildren<SubmenuInnerMenuProps>> = ({ 
         cancelAnimationFrame(cancel);
       }
 
-      /// Reset the height of the node
-      ref.current!.style.height = "";
+      if (ref.current) {
+        /// Reset the height of the node
+        ref.current.style.height = "";
 
-      /// And if we weren't active, we add the hidden class back in.
-      if (!active) {
-        ref.current!.classList.add(SubmenuInnerMenuHidden);
+        /// And if we weren't active, we add the hidden class back in.
+        if (!active) {
+          ref.current.classList.add(SubmenuInnerMenuHidden);
+        }
       }
     };
   }, [active]);
@@ -426,17 +430,15 @@ const Submenu: React.FC<PropsWithChildren<SubmenuProps>> = ({ className, id, ico
           className
         )}>
         <span
-          className={cx(
-            css`
-              background-color: #fff;
-            `,
-            MenuItemInner,
-            isActive && SubmenuActiveItem,
-            SubmenuTitle
-          )}
-          onClick={onClick}>
-          {icon}
-          <span>{title}</span>
+          className={css`
+            display: flex;
+            padding: 4px 4px;
+            background-color: #fff;
+          `}>
+          <span className={cx(MenuItemInner, isActive && SubmenuActiveItem, SubmenuTitle)} onClick={onClick}>
+            {icon}
+            <span>{title}</span>
+          </span>
         </span>
         <SubmenuInnerMenu active={isActive}>{children}</SubmenuInnerMenu>
       </li>

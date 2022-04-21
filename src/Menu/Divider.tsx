@@ -8,7 +8,7 @@ const BasicDivider = css`
   background-color: var(--button-disabled);
 `;
 const Divider = () => {
-  return <li className={BasicDivider} />;
+  return <li className={BasicDivider} role={"separator"} />;
 };
 
 export default memo(Divider);
