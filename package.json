@@ -65,5 +65,9 @@
     "development": [
       "last 1 Chrome versions"
     ]
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   }
 }
