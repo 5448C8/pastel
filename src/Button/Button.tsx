@@ -122,7 +122,7 @@ const SmallButton = css`
   font-size: 14px;
   line-height: 14px;
   .pastel-icon {
-    font-size: 12px;
+    font-size: 14px;
     vertical-align: middle;
   }
 
@@ -253,6 +253,7 @@ const BasicIconButton = css`
   font-family: inherit;
   display: inline-flex;
   background: transparent;
+  transition: background 0.2s ease-in-out;
   border: none;
 
   &.${DangerButton} {

@@ -1,10 +1,16 @@
 {
   "name": "pastel",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./build/index.js",
   "license": "MIT",
   "sideEffects": [
     "./build/global.js"
+  ],
+  "files": [
+    "./build/**/*",
+    "./icons/*.js",
+    "./icons/*.map",
+    "./icons/*.d.ts"
   ],
   "scripts": {
     "clean": "rm -rf ./build tsconfig.build.tsbuildinfo",

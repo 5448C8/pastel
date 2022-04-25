@@ -1,0 +1,3562 @@
+[
+  {
+    "parameter_id": "215",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "1st Shift Count BBOR 6",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 6", "Shift Count", "1st Shift"],
+    "address": "driveweb://172.20.26.102/f32/4523"
+  },
+  {
+    "parameter_id": "365",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 6am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "6am"],
+    "address": "driveweb://172.20.24.102/f32/4650"
+  },
+  {
+    "parameter_id": "368",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 9am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "9am"],
+    "address": "driveweb://172.20.24.102/f32/4656"
+  },
+  {
+    "parameter_id": "369",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 10am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "10am"],
+    "address": "driveweb://172.20.24.102/f32/4658"
+  },
+  {
+    "parameter_id": "370",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 11am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "11am"],
+    "address": "driveweb://172.20.24.102/f32/4660"
+  },
+  {
+    "parameter_id": "376",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 5pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "5pm"],
+    "address": "driveweb://172.20.24.102/f32/4672"
+  },
+  {
+    "parameter_id": "378",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 7pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "7pm"],
+    "address": "driveweb://172.20.24.102/f32/4676"
+  },
+  {
+    "parameter_id": "380",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 9pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "9pm"],
+    "address": "driveweb://172.20.24.102/f32/4680"
+  },
+  {
+    "parameter_id": "381",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 10pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "10pm"],
+    "address": "driveweb://172.20.24.102/f32/4682"
+  },
+  {
+    "parameter_id": "382",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 11pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "11pm"],
+    "address": "driveweb://172.20.24.102/f32/4684"
+  },
+  {
+    "parameter_id": "384",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 6am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "6am"],
+    "address": "driveweb://172.20.24.102/f32/4700"
+  },
+  {
+    "parameter_id": "383",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 8am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "8am"],
+    "address": "driveweb://172.20.24.102/f32/4704"
+  },
+  {
+    "parameter_id": "386",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 9am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "9am"],
+    "address": "driveweb://172.20.24.102/f32/4706"
+  },
+  {
+    "parameter_id": "388",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 11am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "11am"],
+    "address": "driveweb://172.20.24.102/f32/4710"
+  },
+  {
+    "parameter_id": "389",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "12pm"],
+    "address": "driveweb://172.20.24.102/f32/4712"
+  },
+  {
+    "parameter_id": "390",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 1pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "1pm"],
+    "address": "driveweb://172.20.24.102/f32/4714"
+  },
+  {
+    "parameter_id": "391",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 2pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "2pm"],
+    "address": "driveweb://172.20.24.102/f32/4716"
+  },
+  {
+    "parameter_id": "392",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 3pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "3pm"],
+    "address": "driveweb://172.20.24.102/f32/4718"
+  },
+  {
+    "parameter_id": "393",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 4pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "4pm"],
+    "address": "driveweb://172.20.24.102/f32/4720"
+  },
+  {
+    "parameter_id": "394",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 5pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "5pm"],
+    "address": "driveweb://172.20.24.102/f32/4722"
+  },
+  {
+    "parameter_id": "396",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 7pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "7pm"],
+    "address": "driveweb://172.20.24.102/f32/4726"
+  },
+  {
+    "parameter_id": "437",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 2pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "2pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4716"
+  },
+  {
+    "parameter_id": "471",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 10am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "10am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4708"
+  },
+  {
+    "parameter_id": "472",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 6pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "6pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4724"
+  },
+  {
+    "parameter_id": "477",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 2pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "2pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4716"
+  },
+  {
+    "parameter_id": "227",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "1st Previous BBOR 3",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 3", "Previous Count", "1st Shift"],
+    "address": "driveweb://172.20.23.102/f32/4620"
+  },
+  {
+    "parameter_id": "228",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "2nd Previous BBOR 3",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 3", "Previous Count", "2nd Shift"],
+    "address": "driveweb://172.20.23.102/f32/4622"
+  },
+  {
+    "parameter_id": "229",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "3rd Previous BBOR 3",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 3", "Previous Count", "3rd Shift"],
+    "address": "driveweb://172.20.23.102/f32/4624"
+  },
+  {
+    "parameter_id": "230",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "1st Previous BBOR 5",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 5", "Previous Count", "1st Shift"],
+    "address": "driveweb://172.20.25.102/f32/4620"
+  },
+  {
+    "parameter_id": "212",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "1st Shift Count BBOR 2",
+    "interval": 5,
+    "scale": 1,
+    "tags": ["BBOR 2", "1st Shift", "Shift Count"],
+    "address": "driveweb://172.20.22.102/f32/7889"
+  },
+  {
+    "parameter_id": "214",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "3rd Shift Count BBOR 2",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 2", "3rd Shift", "Shift Count"],
+    "address": "driveweb://172.20.22.102/f32/7710"
+  },
+  {
+    "parameter_id": "245",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 1 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 1", "Top", "Enable"],
+    "address": "modbus://172.20.21.105/1/1/u16/16935"
+  },
+  {
+    "parameter_id": "216",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "2nd Shift Count BBOR 6",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 6", "Shift Count", "2nd Shift"],
+    "address": "driveweb://172.20.26.102/f32/4543"
+  },
+  {
+    "parameter_id": "217",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "3rd Shift Count BBOR 6",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 6", "Shift Count", "3rd Shift"],
+    "address": "driveweb://172.20.26.102/f32/4545"
+  },
+  {
+    "parameter_id": "218",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "1st Shift Count BBOR 5",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["1st Shift", "BBOR 5", "Shift Count"],
+    "address": "driveweb://172.20.25.102/f32/4523"
+  },
+  {
+    "parameter_id": "219",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "2nd Shift Count BBOR 5",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 5", "Shift Count", "2nd Shift"],
+    "address": "driveweb://172.20.25.102/f32/4543"
+  },
+  {
+    "parameter_id": "220",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "3rd Shift Count BBOR 5",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 5", "Shift Count", "3rd Shift"],
+    "address": "driveweb://172.20.25.102/f32/4545"
+  },
+  {
+    "parameter_id": "223",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "3rd Shift Count BBOR 3",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 3", "Shift Counter", "3rd Shift"],
+    "address": "driveweb://172.20.23.102/f32/4545"
+  },
+  {
+    "parameter_id": "222",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "2nd Shift Count BBOR 3",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 3", "Shift Counter", "2nd Shift"],
+    "address": "driveweb://172.20.23.102/f32/4543"
+  },
+  {
+    "parameter_id": "221",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "1st Shift Count BBOR 3",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 3", "Shift Counter", "1st Shift"],
+    "address": "driveweb://172.20.23.102/f32/4523"
+  },
+  {
+    "parameter_id": "226",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "3rd Previous BBOR 2",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 2", "Previous Count", "3rd Shift"],
+    "address": "driveweb://172.20.22.102/f32/4624"
+  },
+  {
+    "parameter_id": "232",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "3rd Previous BBOR 5",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 5", "Previous Count", "3rd Shift"],
+    "address": "driveweb://172.20.25.102/f32/4624"
+  },
+  {
+    "parameter_id": "366",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 7am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "7am"],
+    "address": "driveweb://172.20.24.102/f32/4652"
+  },
+  {
+    "parameter_id": "240",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": " BBOR 3 Zone 2 Top SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 2", "Top", "Setpoint"],
+    "address": "modbus://172.20.23.105/1/3/f32/28739"
+  },
+  {
+    "parameter_id": "225",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "2nd Previous BBOR 2",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 2", "Previous Count", "2nd Shift"],
+    "address": "driveweb://172.20.22.102/f32/4622"
+  },
+  {
+    "parameter_id": "247",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 3 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 3", "Top", "Enable"],
+    "address": "modbus://172.20.21.105/1/1/u16/16937"
+  },
+  {
+    "parameter_id": "249",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 5 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 5", "Top", "Enable"],
+    "address": "modbus://172.20.21.105/1/1/u16/16939"
+  },
+  {
+    "parameter_id": "213",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "2nd Shift Count BBOR 2",
+    "interval": 5,
+    "scale": 1,
+    "tags": ["BBOR 2", "Shift Count", "2nd Shift"],
+    "address": "driveweb://172.20.22.102/f32/7708"
+  },
+  {
+    "parameter_id": "242",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "1st Shift Count BBOR 1",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 1", "Shift Count", "1st Shift"],
+    "address": "driveweb://172.20.21.102/f32/4523"
+  },
+  {
+    "parameter_id": "243",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "2nd Shift Count BBOR 1",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 1", "Shift Count", "2nd Shift"],
+    "address": "driveweb://172.20.21.102/f32/4543"
+  },
+  {
+    "parameter_id": "244",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "3rd Shift Count BBOR 1",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 1", "Shift Count", "3rd Shift"],
+    "address": "driveweb://172.20.21.102/f32/4545"
+  },
+  {
+    "parameter_id": "248",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 4 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 4", "Top", "Enable"],
+    "address": "modbus://172.20.21.105/1/1/u16/16938"
+  },
+  {
+    "parameter_id": "236",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 1 Top SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 1", "Top", "Setpoint"],
+    "address": "modbus://172.20.23.105/1/3/f32/28689"
+  },
+  {
+    "parameter_id": "239",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 2 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 2", "Top", "Enable"],
+    "address": "modbus://172.20.23.105/1/1/u16/16936"
+  },
+  {
+    "parameter_id": "246",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 2 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 2", "Top", "Enable"],
+    "address": "modbus://172.20.21.105/1/1/u16/16936"
+  },
+  {
+    "parameter_id": "250",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 6 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 6", "Top", "Enable"],
+    "address": "modbus://172.20.21.105/1/1/u16/16940"
+  },
+  {
+    "parameter_id": "251",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 7 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 7", "Top", "Enable"],
+    "address": "modbus://172.20.21.105/1/1/u16/16941"
+  },
+  {
+    "parameter_id": "253",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 1 Top SP ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 1", "Top", "Setpoint"],
+    "address": "modbus://172.20.21.105/1/3/f32/28689"
+  },
+  {
+    "parameter_id": "237",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "Zone 1 Top Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 1", "Top"],
+    "address": "modbus://172.20.23.105/1/3/f32/28713"
+  },
+  {
+    "parameter_id": "233",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "1st Previous BBOR 6",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 6", "Previous Count", "1st Shift"],
+    "address": "driveweb://172.20.26.102/f32/4620"
+  },
+  {
+    "parameter_id": "234",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "2nd Previous BBOR 6",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 6", "Previous Count", "2nd Shift"],
+    "address": "driveweb://172.20.26.102/f32/4622"
+  },
+  {
+    "parameter_id": "235",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "3rd Previous BBOR 6",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 6", "Previous Count", "3rd Shift"],
+    "address": "driveweb://172.20.26.102/f32/4624"
+  },
+  {
+    "parameter_id": "224",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "1st Previous BBOR 2",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 2", "Previous Count", "1st Shift"],
+    "address": "driveweb://172.20.22.102/f32/4620"
+  },
+  {
+    "parameter_id": "367",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 8am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "8am"],
+    "address": "driveweb://172.20.24.102/f32/4654"
+  },
+  {
+    "parameter_id": "371",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 12pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "12pm"],
+    "address": "driveweb://172.20.24.102/f32/4662"
+  },
+  {
+    "parameter_id": "255",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 3 Top SP ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 3", "Top", "Setpoint"],
+    "address": "modbus://172.20.21.105/1/3/f32/28789"
+  },
+  {
+    "parameter_id": "254",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 2 Top SP ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 2", "Top", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.21.105/1/3/f32/28739"
+  },
+  {
+    "parameter_id": "372",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 1pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "1pm"],
+    "address": "driveweb://172.20.24.102/f32/4664"
+  },
+  {
+    "parameter_id": "373",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 2pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "2pm"],
+    "address": "driveweb://172.20.24.102/f32/4666"
+  },
+  {
+    "parameter_id": "374",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 3pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "3pm"],
+    "address": "driveweb://172.20.24.102/f32/4668"
+  },
+  {
+    "parameter_id": "375",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 4pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "4pm"],
+    "address": "driveweb://172.20.24.102/f32/4670"
+  },
+  {
+    "parameter_id": "377",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 6pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "6pm"],
+    "address": "driveweb://172.20.24.102/f32/4674"
+  },
+  {
+    "parameter_id": "379",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 8pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "8pm"],
+    "address": "driveweb://172.20.24.102/f32/4678"
+  },
+  {
+    "parameter_id": "385",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 7am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "7am"],
+    "address": "driveweb://172.20.24.102/f32/4702"
+  },
+  {
+    "parameter_id": "387",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 10am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "10am"],
+    "address": "driveweb://172.20.24.102/f32/4708"
+  },
+  {
+    "parameter_id": "395",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 6pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "6pm"],
+    "address": "driveweb://172.20.24.102/f32/4724"
+  },
+  {
+    "parameter_id": "397",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 8pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "8pm"],
+    "address": "driveweb://172.20.24.102/f32/4728"
+  },
+  {
+    "parameter_id": "398",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 9pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "9pm"],
+    "address": "driveweb://172.20.24.102/f32/4730"
+  },
+  {
+    "parameter_id": "438",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 2pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "2pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4716"
+  },
+  {
+    "parameter_id": "439",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 10am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "10am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4658"
+  },
+  {
+    "parameter_id": "441",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 7pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "7pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4676"
+  },
+  {
+    "parameter_id": "448",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 8am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "8am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4654"
+  },
+  {
+    "parameter_id": "450",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 6pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "6pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4674"
+  },
+  {
+    "parameter_id": "451",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 7am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "7am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4702"
+  },
+  {
+    "parameter_id": "453",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 11pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "11pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4734"
+  },
+  {
+    "parameter_id": "455",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 8pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "8pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4728"
+  },
+  {
+    "parameter_id": "457",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 11am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "11am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4660"
+  },
+  {
+    "parameter_id": "462",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 3pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "3pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4718"
+  },
+  {
+    "parameter_id": "463",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 4pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "4pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4720"
+  },
+  {
+    "parameter_id": "464",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 7pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "7pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4726"
+  },
+  {
+    "parameter_id": "465",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 7am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "7am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4652"
+  },
+  {
+    "parameter_id": "467",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 2pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "2pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4666"
+  },
+  {
+    "parameter_id": "473",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 9pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "9pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4730"
+  },
+  {
+    "parameter_id": "474",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 11am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "11am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4710"
+  },
+  {
+    "parameter_id": "478",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 10am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "10am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4658"
+  },
+  {
+    "parameter_id": "479",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 5pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "5pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4672"
+  },
+  {
+    "parameter_id": "482",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 6am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "6am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4700"
+  },
+  {
+    "parameter_id": "485",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "12pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4712"
+  },
+  {
+    "parameter_id": "486",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 5pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "5pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4722"
+  },
+  {
+    "parameter_id": "487",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 8am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "8am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4654"
+  },
+  {
+    "parameter_id": "488",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 1pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "1pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4664"
+  },
+  {
+    "parameter_id": "489",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 6pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "6pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4674"
+  },
+  {
+    "parameter_id": "490",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 7am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "7am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4702"
+  },
+  {
+    "parameter_id": "491",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 10pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "10pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4732"
+  },
+  {
+    "parameter_id": "492",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 11pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "11pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4734"
+  },
+  {
+    "parameter_id": "493",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 6am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "6am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4650"
+  },
+  {
+    "parameter_id": "273",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 2 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 2", "Bottom", "Setpoint"],
+    "address": "modbus://172.20.21.103/1/3/f32/28739"
+  },
+  {
+    "parameter_id": "279",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 2 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 2", "Bottom"],
+    "address": "modbus://172.20.21.103/1/3/f32/28763"
+  },
+  {
+    "parameter_id": "258",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 6 Top SP ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 6", "Top", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.21.105/1/3/f32/28939"
+  },
+  {
+    "parameter_id": "399",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 10pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "10pm"],
+    "address": "driveweb://172.20.24.102/f32/4732"
+  },
+  {
+    "parameter_id": "278",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 1 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 1", "Bottom"],
+    "address": "modbus://172.20.21.103/1/3/f32/28713"
+  },
+  {
+    "parameter_id": "296",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 2 Bot Enable ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Zone 2", "Bottom", "Enable"],
+    "address": "modbus://172.20.22.103/1/1/u16/16936"
+  },
+  {
+    "parameter_id": "265",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 1 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 1", "Bottom", "Enable"],
+    "address": "modbus://172.20.21.103/1/1/u16/16935"
+  },
+  {
+    "parameter_id": "295",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 1 Bot Enable ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Enable", "Zone 1", "Bottom"],
+    "address": "modbus://172.20.22.103/1/1/u16/16935"
+  },
+  {
+    "parameter_id": "256",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 4 Top SP ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 4", "Top", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.21.105/1/3/f32/28839"
+  },
+  {
+    "parameter_id": "257",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 5 Top SP ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 5", "Top", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.21.105/1/3/f32/28889"
+  },
+  {
+    "parameter_id": "260",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 2 Top Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 2", "Top"],
+    "address": "modbus://172.20.21.105/1/3/f32/28763"
+  },
+  {
+    "parameter_id": "267",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 3 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 3", "Bottom", "Enable"],
+    "address": "modbus://172.20.21.103/1/1/u16/16886"
+  },
+  {
+    "parameter_id": "268",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 4 Bot Enable ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 4", "Bottom", "Enable"],
+    "address": "modbus://172.20.21.103/1/1/u16/16887"
+  },
+  {
+    "parameter_id": "269",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 5 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 5", "Bottom", "Enable"],
+    "address": "modbus://172.20.21.103/1/1/u16/16888"
+  },
+  {
+    "parameter_id": "270",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 6 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 6", "Bottom", "Enable"],
+    "address": "modbus://172.20.21.103/1/1/u16/16889"
+  },
+  {
+    "parameter_id": "261",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 3 Top Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 3", "Top"],
+    "address": "modbus://172.20.21.105/1/3/f32/28813"
+  },
+  {
+    "parameter_id": "263",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 5 Top Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 5", "Top"],
+    "address": "modbus://172.20.21.105/1/3/f32/28913"
+  },
+  {
+    "parameter_id": "264",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 6 Top Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 6", "Top"],
+    "address": "modbus://172.20.21.105/1/3/f32/28963"
+  },
+  {
+    "parameter_id": "262",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 4 Top Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 4", "Temperature", "Top"],
+    "address": "modbus://172.20.21.105/1/3/f32/28863"
+  },
+  {
+    "parameter_id": "274",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 3 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Setpoint", "Zone 3", "Bottom"],
+    "address": "modbus://172.20.21.103/1/3/f32/28789"
+  },
+  {
+    "parameter_id": "275",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 4 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Setpoint", "Zone 4", "Bottom", "Temperature"],
+    "address": "modbus://172.20.21.103/1/3/f32/28839"
+  },
+  {
+    "parameter_id": "276",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 5 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Setpoint", "Zone 5", "Bottom", "Temperature"],
+    "address": "modbus://172.20.21.103/1/3/f32/28889"
+  },
+  {
+    "parameter_id": "281",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 4 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 4", "Bottom"],
+    "address": "modbus://172.20.21.103/1/3/f32/28863"
+  },
+  {
+    "parameter_id": "282",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 5 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 5", "Bottom"],
+    "address": "modbus://172.20.21.103/1/3/f32/28913"
+  },
+  {
+    "parameter_id": "283",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 6 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 6", "Bottom"],
+    "address": "modbus://172.20.21.103/1/3/f32/28963"
+  },
+  {
+    "parameter_id": "238",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "Zone 1 Top Enable BBOR 3",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 1", "Top", "Enable"],
+    "address": "modbus://172.20.23.105/1/1/u16/16935"
+  },
+  {
+    "parameter_id": "266",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 2 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 2", "Bottom", "Enable"],
+    "address": "modbus://172.20.21.103/1/1/u16/16885"
+  },
+  {
+    "parameter_id": "280",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 3 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 3", "Bottom"],
+    "address": "modbus://172.20.21.103/1/3/f32/28813"
+  },
+  {
+    "parameter_id": "297",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 3 Bot Enable ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Zone 3", "Bottom", "Enable"],
+    "address": "modbus://172.20.22.103/1/1/u16/16937"
+  },
+  {
+    "parameter_id": "298",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 4 Bot Enable ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Zone 4", "Bottom", "Enable"],
+    "address": "modbus://172.20.22.103/1/1/u16/16938"
+  },
+  {
+    "parameter_id": "299",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 5 Bot Enable ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Zone 5", "Bottom", "Enable"],
+    "address": "modbus://172.20.22.103/1/1/u16/16939"
+  },
+  {
+    "parameter_id": "300",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 6 Bot Enable ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Zone 6", "Bottom", "Enable"],
+    "address": "modbus://172.20.22.103/1/1/u16/16940"
+  },
+  {
+    "parameter_id": "286",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "3rd Previous BBOR 1",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 1", "Previous Count", "3rd Shift"],
+    "address": "driveweb://172.20.21.102/f32/4624"
+  },
+  {
+    "parameter_id": "284",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "1st Previous BBOR 1",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 1", "Previous Count", "1st Shift"],
+    "address": "driveweb://172.20.21.102/f32/4620"
+  },
+  {
+    "parameter_id": "313",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 5 Bot Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 2", "Temperature", "Zone 5", "Bottom"],
+    "address": "modbus://172.20.22.103/1/3/f32/28913"
+  },
+  {
+    "parameter_id": "314",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 6 Bot Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 2", "Temperature", "Zone 6", "Bottom"],
+    "address": "modbus://172.20.22.103/1/3/f32/28963"
+  },
+  {
+    "parameter_id": "400",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 4 11pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["BBOR 4", "Hourly Count", "Previous", "11pm"],
+    "address": "driveweb://172.20.24.102/f32/4734"
+  },
+  {
+    "parameter_id": "403",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 10am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "10am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4658"
+  },
+  {
+    "parameter_id": "405",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 5pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "5pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4672"
+  },
+  {
+    "parameter_id": "406",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 7pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "7pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4676"
+  },
+  {
+    "parameter_id": "407",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 9pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4680"
+  },
+  {
+    "parameter_id": "410",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 6am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "6am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4700"
+  },
+  {
+    "parameter_id": "411",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 8am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "8am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4704"
+  },
+  {
+    "parameter_id": "412",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 9am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "9am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4706"
+  },
+  {
+    "parameter_id": "414",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "12pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4712"
+  },
+  {
+    "parameter_id": "418",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 5pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "5pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4722"
+  },
+  {
+    "parameter_id": "421",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 8am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "8am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4654"
+  },
+  {
+    "parameter_id": "423",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 1pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "1pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4664"
+  },
+  {
+    "parameter_id": "301",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 7 Bot Enable ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Zone 7", "Bottom", "Enable"],
+    "address": "modbus://172.20.22.103/1/1/u16/16941"
+  },
+  {
+    "parameter_id": "302",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 8 Bot Enable ",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Zone 8", "Bottom", "Enable"],
+    "address": "modbus://172.20.22.103/1/1/u16/16942"
+  },
+  {
+    "parameter_id": "306",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 4 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Setpoint", "Zone 4", "Bottom", "Temperature"],
+    "address": "modbus://172.20.22.103/1/3/f32/28839"
+  },
+  {
+    "parameter_id": "307",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 5 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Zone 5", "Bottom", "Temperature", "Setpoint"],
+    "address": "modbus://172.20.22.103/1/3/f32/28889"
+  },
+  {
+    "parameter_id": "308",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 6 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Setpoint", "Zone 6", "Bottom", "Temperature"],
+    "address": "modbus://172.20.22.103/1/3/f32/28939"
+  },
+  {
+    "parameter_id": "460",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "12pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4712"
+  },
+  {
+    "parameter_id": "305",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 3 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Setpoint", "Zone 3", "Bottom", "Temperature"],
+    "address": "modbus://172.20.22.103/1/3/f32/28789"
+  },
+  {
+    "parameter_id": "461",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 1pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "1pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4714"
+  },
+  {
+    "parameter_id": "427",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 6pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "6pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4674"
+  },
+  {
+    "parameter_id": "429",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 7am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "7am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4702"
+  },
+  {
+    "parameter_id": "434",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 10pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "10pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4732"
+  },
+  {
+    "parameter_id": "435",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 11pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "11pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4734"
+  },
+  {
+    "parameter_id": "440",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 5pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "5pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4672"
+  },
+  {
+    "parameter_id": "442",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 9pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4680"
+  },
+  {
+    "parameter_id": "443",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 6am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "6am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4700"
+  },
+  {
+    "parameter_id": "444",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 8am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "8am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4704"
+  },
+  {
+    "parameter_id": "445",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 9am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "9am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4706"
+  },
+  {
+    "parameter_id": "446",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "12pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4712"
+  },
+  {
+    "parameter_id": "447",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 5pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "5pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4722"
+  },
+  {
+    "parameter_id": "449",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 1pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "1pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4664"
+  },
+  {
+    "parameter_id": "452",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 10pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "10pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4732"
+  },
+  {
+    "parameter_id": "454",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 6am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "6am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4650"
+  },
+  {
+    "parameter_id": "456",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 9am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9am", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4656"
+  },
+  {
+    "parameter_id": "458",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 10pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "10pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4682"
+  },
+  {
+    "parameter_id": "459",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 11pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "11pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4684"
+  },
+  {
+    "parameter_id": "466",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 12pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "12pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4662"
+  },
+  {
+    "parameter_id": "480",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 7pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "7pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4676"
+  },
+  {
+    "parameter_id": "481",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 9pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4680"
+  },
+  {
+    "parameter_id": "484",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 9am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "9am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4706"
+  },
+  {
+    "parameter_id": "401",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 6am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "6am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4650"
+  },
+  {
+    "parameter_id": "312",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 4 Bot Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 2", "Temperature", "Zone 4", "Bottom"],
+    "address": "modbus://172.20.22.103/1/3/f32/28863"
+  },
+  {
+    "parameter_id": "340",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 2 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 2", "Bottom", "Enable"],
+    "address": "modbus://172.20.23.103/1/1/u16/16885"
+  },
+  {
+    "parameter_id": "325",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 3 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 3", "Top", "Enable"],
+    "address": "modbus://172.20.23.105/1/1/u16/16937"
+  },
+  {
+    "parameter_id": "332",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 4 Top Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 4", "Top"],
+    "address": "modbus://172.20.23.105/1/3/f32/28863"
+  },
+  {
+    "parameter_id": "333",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 5 Top Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 5", "Top"],
+    "address": "modbus://172.20.23.105/1/3/f32/28913"
+  },
+  {
+    "parameter_id": "334",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 6 Top Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 6", "Top"],
+    "address": "modbus://172.20.23.105/1/3/f32/28963"
+  },
+  {
+    "parameter_id": "330",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 2 Top Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 2", "Top"],
+    "address": "modbus://172.20.23.105/1/3/f32/28763"
+  },
+  {
+    "parameter_id": "329",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 1 Top Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 1", "Top"],
+    "address": "modbus://172.20.23.105/1/3/f32/28713"
+  },
+  {
+    "parameter_id": "310",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 2 Bot Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 2", "Temperature", "Zone 2", "Bottom"],
+    "address": "modbus://172.20.22.103/1/3/f32/28763"
+  },
+  {
+    "parameter_id": "342",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 4 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 4", "Bottom", "Enable"],
+    "address": "modbus://172.20.23.103/1/1/u16/16938"
+  },
+  {
+    "parameter_id": "338",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": " BBOR 3 Zone 6 Top SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 6", "Top", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.23.105/1/3/f32/28939"
+  },
+  {
+    "parameter_id": "343",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 5 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 5", "Bottom", "Enable"],
+    "address": "modbus://172.20.23.103/1/1/u16/16939"
+  },
+  {
+    "parameter_id": "344",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 6 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 6", "Bottom", "Enable"],
+    "address": "modbus://172.20.23.103/1/1/u16/16940"
+  },
+  {
+    "parameter_id": "331",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 3 Top Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 3", "Top"],
+    "address": "modbus://172.20.23.105/1/3/f32/28813"
+  },
+  {
+    "parameter_id": "303",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 1 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Setpoint", "Zone 1", "Bottom"],
+    "address": "modbus://172.20.22.103/1/3/f32/28689"
+  },
+  {
+    "parameter_id": "309",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 1 Bot Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 2", "Temperature", "Zone 1", "Bottom"],
+    "address": "modbus://172.20.22.103/1/3/f32/28713"
+  },
+  {
+    "parameter_id": "339",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 1 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 1", "Bottom", "Enable"],
+    "address": "modbus://172.20.23.103/1/1/u16/16935"
+  },
+  {
+    "parameter_id": "311",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 3 Bot Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 2", "Temperature", "Zone 3", "Bottom"],
+    "address": "modbus://172.20.22.103/1/3/f32/28813"
+  },
+  {
+    "parameter_id": "346",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 2 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 2", "Bottom", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.23.103/1/3/f32/28739"
+  },
+  {
+    "parameter_id": "341",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 3 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 3", "Bottom", "Enable"],
+    "address": "modbus://172.20.23.103/1/1/u16/16937"
+  },
+  {
+    "parameter_id": "326",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 4 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 4", "Top", "Enable"],
+    "address": "modbus://172.20.23.105/1/1/u16/16938"
+  },
+  {
+    "parameter_id": "327",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 5 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 5", "Top", "Enable"],
+    "address": "modbus://172.20.23.105/1/1/u16/16939"
+  },
+  {
+    "parameter_id": "328",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 6 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 6", "Top", "Enable"],
+    "address": "modbus://172.20.23.105/1/1/u16/16940"
+  },
+  {
+    "parameter_id": "335",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": " BBOR 3 Zone 3 Top SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 3", "Top", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.23.105/1/3/f32/28789"
+  },
+  {
+    "parameter_id": "337",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": " BBOR 3 Zone 5 Top SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 5", "Top", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.23.105/1/3/f32/28889"
+  },
+  {
+    "parameter_id": "345",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 1 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 1", "Bottom", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.23.103/1/3/f32/28689"
+  },
+  {
+    "parameter_id": "347",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 3 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 3", "Bottom", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.23.103/1/3/f32/28789"
+  },
+  {
+    "parameter_id": "348",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 4 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 4", "Bottom", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.23.103/1/3/f32/28839"
+  },
+  {
+    "parameter_id": "350",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 6 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 6", "Bottom", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.23.103/1/3/f32/28939"
+  },
+  {
+    "parameter_id": "351",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 1 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 1", "Bottom"],
+    "address": "modbus://172.20.23.103/1/3/f32/28713"
+  },
+  {
+    "parameter_id": "352",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 2 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 2", "Bottom"],
+    "address": "modbus://172.20.23.103/1/3/f32/28763"
+  },
+  {
+    "parameter_id": "353",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 3 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 3", "Bottom"],
+    "address": "modbus://172.20.23.103/1/3/f32/28813"
+  },
+  {
+    "parameter_id": "432",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 8pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "8pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4728"
+  },
+  {
+    "parameter_id": "304",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Zone 2 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 2", "Setpoint", "Zone 2", "Bottom", "Temperature"],
+    "address": "modbus://172.20.22.103/1/3/f32/28739"
+  },
+  {
+    "parameter_id": "402",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 9am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4656"
+  },
+  {
+    "parameter_id": "404",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 11am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "11am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4660"
+  },
+  {
+    "parameter_id": "357",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "Corner Pad Index Length SP",
+    "interval": 30,
+    "scale": 0.01,
+    "tags": ["Corner Pad", "Index Length"],
+    "address": "driveweb://172.20.27.102/i16/8057"
+  },
+  {
+    "parameter_id": "358",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "Corner Pad Length FB",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["Corner Pad", "Length", "Feedback"],
+    "address": "driveweb://172.20.27.102/f32/7867"
+  },
+  {
+    "parameter_id": "359",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "Corner Pad Index Length ",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["Corner Pad", "Index Length"],
+    "address": "driveweb://172.20.27.102/f32/7867"
+  },
+  {
+    "parameter_id": "362",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR6 Zone 1 Bot Temp",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["Temperature", "BBOR 6", "Zone 1", "Bottom"],
+    "address": "modbus://172.20.26.103/1/3/f32/28713"
+  },
+  {
+    "parameter_id": "272",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 1 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 1", "Bottom", "Setpoint"],
+    "address": "modbus://172.20.21.103/1/3/f32/28689"
+  },
+  {
+    "parameter_id": "363",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 Zone 1 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["Zone 1", "Bottom", "Setpoint", "BBOR 6"],
+    "address": "modbus://172.20.26.103/1/3/f32/28689"
+  },
+  {
+    "parameter_id": "364",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 Zone 1 Bot Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["Zone 1", "Bottom", "Enable", "BBOR 6"],
+    "address": "modbus://172.20.26.103/1/1/u16/16935"
+  },
+  {
+    "parameter_id": "252",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 8 Top Enable",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Zone 8", "Top", "Enable"],
+    "address": "modbus://172.20.21.105/1/1/u16/16941"
+  },
+  {
+    "parameter_id": "259",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 1 Top Temp",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 1", "Temperature", "Zone 1", "Top"],
+    "address": "modbus://172.20.21.105/1/3/f32/28713"
+  },
+  {
+    "parameter_id": "277",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 Zone 6 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 1", "Setpoint", "Zone 6", "Bottom"],
+    "address": "modbus://172.20.21.103/1/3/f32/28939"
+  },
+  {
+    "parameter_id": "336",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": " BBOR 3 Zone 4 Top SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 4", "Top", "Setpoint", "Temperature"],
+    "address": "modbus://172.20.23.105/1/3/f32/28839"
+  },
+  {
+    "parameter_id": "349",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 5 Bot SP",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Zone 5", "Setpoint", "Bottom", "Temperature"],
+    "address": "modbus://172.20.23.103/1/3/f32/28889"
+  },
+  {
+    "parameter_id": "354",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 4 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 4", "Bottom"],
+    "address": "modbus://172.20.23.103/1/3/f32/28863"
+  },
+  {
+    "parameter_id": "355",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 5 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 5", "Bottom"],
+    "address": "modbus://172.20.23.103/1/3/f32/28913"
+  },
+  {
+    "parameter_id": "356",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 Zone 6 Bot Temp",
+    "interval": 30,
+    "scale": 1,
+    "tags": ["BBOR 3", "Temperature", "Zone 6", "Bottom"],
+    "address": "modbus://172.20.23.103/1/3/f32/28963"
+  },
+  {
+    "parameter_id": "360",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Length SP",
+    "interval": 30,
+    "scale": 0.01,
+    "tags": ["BBOR 2", "Length", "Setpoint"],
+    "address": "driveweb://172.20.22.102/i16/8186"
+  },
+  {
+    "parameter_id": "361",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 Length FB",
+    "interval": 1,
+    "scale": 1,
+    "tags": ["BBOR 2", "Length"],
+    "address": "driveweb://172.20.22.102/f32/7867"
+  },
+  {
+    "parameter_id": "285",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "2nd Previous BBOR 1",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 1", "Previous Count", "2nd Shift"],
+    "address": "driveweb://172.20.21.102/f32/4622"
+  },
+  {
+    "parameter_id": "231",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "2nd Previous BBOR 5",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["BBOR 5", "Previous Count", "2nd Shift"],
+    "address": "driveweb://172.20.25.102/f32/4622"
+  },
+  {
+    "parameter_id": "408",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 10pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "10pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4682"
+  },
+  {
+    "parameter_id": "409",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 11pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "11pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4684"
+  },
+  {
+    "parameter_id": "413",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "12pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4712"
+  },
+  {
+    "parameter_id": "415",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 1pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "1pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4714"
+  },
+  {
+    "parameter_id": "416",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 3pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "3pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4718"
+  },
+  {
+    "parameter_id": "417",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 4pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "4pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4720"
+  },
+  {
+    "parameter_id": "419",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 7pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "7pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4726"
+  },
+  {
+    "parameter_id": "420",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 7am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "7am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4652"
+  },
+  {
+    "parameter_id": "422",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 12pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "12pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4662"
+  },
+  {
+    "parameter_id": "424",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 2pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "2pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4666"
+  },
+  {
+    "parameter_id": "425",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 3pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "3pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4668"
+  },
+  {
+    "parameter_id": "426",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 4pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "4pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4670"
+  },
+  {
+    "parameter_id": "428",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 8pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "8pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4678"
+  },
+  {
+    "parameter_id": "430",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 10am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "10am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4708"
+  },
+  {
+    "parameter_id": "431",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 6pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "6pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4724"
+  },
+  {
+    "parameter_id": "433",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 9pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "9pm", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4730"
+  },
+  {
+    "parameter_id": "436",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 11am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "11am", "BBOR 1"],
+    "address": "driveweb://172.20.21.102/f32/4710"
+  },
+  {
+    "parameter_id": "468",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 3pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "3pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4668"
+  },
+  {
+    "parameter_id": "469",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 4pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "4pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4670"
+  },
+  {
+    "parameter_id": "470",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 2 8pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "8pm", "BBOR 2"],
+    "address": "driveweb://172.20.22.102/f32/4678"
+  },
+  {
+    "parameter_id": "494",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 8pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "8pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4728"
+  },
+  {
+    "parameter_id": "495",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 9am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4656"
+  },
+  {
+    "parameter_id": "496",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 11am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "11am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4660"
+  },
+  {
+    "parameter_id": "499",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "12pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4712"
+  },
+  {
+    "parameter_id": "500",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 1pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "1pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4714"
+  },
+  {
+    "parameter_id": "501",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 3pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "3pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4718"
+  },
+  {
+    "parameter_id": "502",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 4pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "4pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4720"
+  },
+  {
+    "parameter_id": "503",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 7pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "7pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4726"
+  },
+  {
+    "parameter_id": "504",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 7am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "7am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4652"
+  },
+  {
+    "parameter_id": "506",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 2pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "2pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4666"
+  },
+  {
+    "parameter_id": "508",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 4pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "4pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4670"
+  },
+  {
+    "parameter_id": "513",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 11am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "11am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4710"
+  },
+  {
+    "parameter_id": "483",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 8am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "8am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4704"
+  },
+  {
+    "parameter_id": "497",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 10pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "10pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4682"
+  },
+  {
+    "parameter_id": "498",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 11pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "11pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4684"
+  },
+  {
+    "parameter_id": "505",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 12pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "12pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4662"
+  },
+  {
+    "parameter_id": "507",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 3pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "3pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4668"
+  },
+  {
+    "parameter_id": "509",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 8pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "8pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4678"
+  },
+  {
+    "parameter_id": "510",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 10am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "10am", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4708"
+  },
+  {
+    "parameter_id": "511",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 6pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "6pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4724"
+  },
+  {
+    "parameter_id": "512",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 3 9pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "9pm", "BBOR 3"],
+    "address": "driveweb://172.20.23.102/f32/4730"
+  },
+  {
+    "parameter_id": "514",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 2pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "2pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4716"
+  },
+  {
+    "parameter_id": "515",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 10am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "10am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4658"
+  },
+  {
+    "parameter_id": "516",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 5pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "5pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4672"
+  },
+  {
+    "parameter_id": "517",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 7pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "7pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4676"
+  },
+  {
+    "parameter_id": "518",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 9pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4680"
+  },
+  {
+    "parameter_id": "519",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 9pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4680"
+  },
+  {
+    "parameter_id": "520",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 6am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "6am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4700"
+  },
+  {
+    "parameter_id": "521",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 8am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "8am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4704"
+  },
+  {
+    "parameter_id": "522",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 9am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "9am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4706"
+  },
+  {
+    "parameter_id": "523",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "12pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4712"
+  },
+  {
+    "parameter_id": "524",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 5pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "5pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4722"
+  },
+  {
+    "parameter_id": "525",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 8am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "8am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4654"
+  },
+  {
+    "parameter_id": "526",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 1pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "1pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4664"
+  },
+  {
+    "parameter_id": "527",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 6pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "6pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4674"
+  },
+  {
+    "parameter_id": "528",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 7am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "7am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4702"
+  },
+  {
+    "parameter_id": "529",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 10pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "10pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4732"
+  },
+  {
+    "parameter_id": "530",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 11pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "11pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4734"
+  },
+  {
+    "parameter_id": "531",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 6am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "6am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4650"
+  },
+  {
+    "parameter_id": "532",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 8pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "8pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4728"
+  },
+  {
+    "parameter_id": "533",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 9am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4656"
+  },
+  {
+    "parameter_id": "534",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 11am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "11am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4660"
+  },
+  {
+    "parameter_id": "535",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 10pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "10pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4682"
+  },
+  {
+    "parameter_id": "536",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 11pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "11pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4684"
+  },
+  {
+    "parameter_id": "537",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "12pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4712"
+  },
+  {
+    "parameter_id": "538",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 1pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "1pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4714"
+  },
+  {
+    "parameter_id": "539",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 3pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "3pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4718"
+  },
+  {
+    "parameter_id": "540",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 4pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "4pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4720"
+  },
+  {
+    "parameter_id": "541",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 7pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "7pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4726"
+  },
+  {
+    "parameter_id": "542",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 7am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "7am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4652"
+  },
+  {
+    "parameter_id": "543",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 12pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "12pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4662"
+  },
+  {
+    "parameter_id": "544",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 2pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "2pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4666"
+  },
+  {
+    "parameter_id": "545",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 3pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "3pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4668"
+  },
+  {
+    "parameter_id": "546",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 1 4pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "4pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4670"
+  },
+  {
+    "parameter_id": "547",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 8pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "8pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4678"
+  },
+  {
+    "parameter_id": "548",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 10am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "10am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4708"
+  },
+  {
+    "parameter_id": "549",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 6pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "6pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4724"
+  },
+  {
+    "parameter_id": "550",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 9pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "9pm", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4730"
+  },
+  {
+    "parameter_id": "553",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 10am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "10am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4658"
+  },
+  {
+    "parameter_id": "556",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 9pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4680"
+  },
+  {
+    "parameter_id": "559",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 9am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "9am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4706"
+  },
+  {
+    "parameter_id": "560",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "12pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4712"
+  },
+  {
+    "parameter_id": "561",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 5pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "5pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4722"
+  },
+  {
+    "parameter_id": "562",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 8am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "8am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4654"
+  },
+  {
+    "parameter_id": "563",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 1pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "1pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4664"
+  },
+  {
+    "parameter_id": "564",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 6pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "6pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4674"
+  },
+  {
+    "parameter_id": "565",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 7am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "7am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4702"
+  },
+  {
+    "parameter_id": "566",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 10pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "10pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4732"
+  },
+  {
+    "parameter_id": "567",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 11pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "11pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4734"
+  },
+  {
+    "parameter_id": "569",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 8pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "8pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4728"
+  },
+  {
+    "parameter_id": "570",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 9am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "9am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4656"
+  },
+  {
+    "parameter_id": "572",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 10pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "10pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4682"
+  },
+  {
+    "parameter_id": "573",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 11pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "11pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4684"
+  },
+  {
+    "parameter_id": "574",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 12pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "12pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4712"
+  },
+  {
+    "parameter_id": "575",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 1pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "1pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4714"
+  },
+  {
+    "parameter_id": "577",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 4pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "4pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4720"
+  },
+  {
+    "parameter_id": "580",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 12pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "12pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4662"
+  },
+  {
+    "parameter_id": "581",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 2pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "2pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4666"
+  },
+  {
+    "parameter_id": "585",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 10am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "10am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4708"
+  },
+  {
+    "parameter_id": "551",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 5 11am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "11am", "BBOR 5"],
+    "address": "driveweb://172.20.25.102/f32/4710"
+  },
+  {
+    "parameter_id": "552",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 2pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "2pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4716"
+  },
+  {
+    "parameter_id": "554",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 5pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "5pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4672"
+  },
+  {
+    "parameter_id": "555",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 7pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "7pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4676"
+  },
+  {
+    "parameter_id": "557",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 6am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "6am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4700"
+  },
+  {
+    "parameter_id": "558",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 8am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "8am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4704"
+  },
+  {
+    "parameter_id": "568",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 6am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "6am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4650"
+  },
+  {
+    "parameter_id": "571",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 11am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "11am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4660"
+  },
+  {
+    "parameter_id": "576",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 3pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "3pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4718"
+  },
+  {
+    "parameter_id": "578",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 7pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "7pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4726"
+  },
+  {
+    "parameter_id": "579",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 7am Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "7am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4652"
+  },
+  {
+    "parameter_id": "582",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 3pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "3pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4668"
+  },
+  {
+    "parameter_id": "583",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 4pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "4pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4670"
+  },
+  {
+    "parameter_id": "584",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 8pm Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "8pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4678"
+  },
+  {
+    "parameter_id": "586",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 6pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "6pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4724"
+  },
+  {
+    "parameter_id": "587",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 9pm Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "9pm", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4730"
+  },
+  {
+    "parameter_id": "588",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "BBOR 6 11am Previous Count ",
+    "interval": 60,
+    "scale": 1,
+    "tags": ["Hourly Count", "Previous", "11am", "BBOR 6"],
+    "address": "driveweb://172.20.26.102/f32/4710"
+  },
+  {
+    "parameter_id": "589",
+    "project_id": "6",
+    "interface_id": "4",
+    "name": "Extruder 1 State ",
+    "interval": 10,
+    "scale": 1,
+    "tags": ["Extruder 1", "State"],
+    "address": "driveweb://172.20.31.141/i16/8056"
+  }
+]

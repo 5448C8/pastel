@@ -169,7 +169,7 @@ const MenuItemInner = css`
 `;
 
 const BasicMenuItemInner = css`
-  border-radius: 6px;
+  border-radius: 4px;
   .${BasicMenuItem}:hover & {
     background-color: var(--gray-2);
   }
@@ -237,7 +237,7 @@ const SubmenuActiveItem = css`
 `;
 
 const SubmenuTitle = css`
-  border-radius: 6px;
+  border-radius: 4px;
   &:not(.${SubmenuActiveItem}):hover {
     background-color: var(--gray-2);
   }

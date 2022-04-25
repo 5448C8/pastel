@@ -38,6 +38,8 @@ const CheckboxContainer = css`
   border: 1px solid var(--neutral-black);
   background-color: var(--pure-white);
 
+  transition: background-color 0.25s;
+
   &:not(.${CheckboxDisabled}):active,
   &:not(.${CheckboxDisabled}):focus {
     box-shadow: 0px 0px 0px 2px #bdbada;
@@ -54,7 +56,7 @@ const CheckboxContainer = css`
     opacity: 0;
   }
 
-  &:not(.${CheckboxDisabled}):hover {
+  .${CheckboxLabelContainer}:hover &:not(.${CheckboxDisabled}) {
     border-color: var(--primary-4);
   }
 `;
@@ -64,11 +66,28 @@ const CheckboxActive = css`
     border: none;
     background-color: var(--primary-4);
   }
+`;
+
+const CheckboxIndeterminate = css`
+  &::before {
+    content: "";
+    width: 12px;
+    position: absolute;
+    left: 3px;
+    height: 2px;
+    top: 8px;
+    background-color: var(--pure-white);
+    border-radius: 4px;
+  }
+`;
+
+const CheckboxChecked = css`
   & .pastel-icon {
     top: 3px;
     opacity: 1;
   }
 `;
+
 const CheckboxInput = css`
   position: absolute;
   top: 0;
@@ -86,12 +105,13 @@ const CheckboxLabel = css`
 export type CheckboxProps = {
   className?: string;
   value?: boolean;
+  indeterminate?: boolean;
   onChange?: (b: boolean) => void;
   disabled?: boolean;
 };
 
 const Checkbox: ForwardRefRenderFunction<HTMLInputElement, PropsWithChildren<CheckboxProps>> = (
-  { value, className, children, onChange: _onChange, disabled },
+  { value, className, children, onChange: _onChange, disabled, indeterminate },
   ref
 ) => {
   const id = useId();
@@ -101,9 +121,18 @@ const Checkbox: ForwardRefRenderFunction<HTMLInputElement, PropsWithChildren<Che
     },
     [_onChange]
   );
+  const active = value || indeterminate;
+  const checked = indeterminate ? false : value;
   return (
     <label htmlFor={id} className={cx(CheckboxLabelContainer, className)}>
-      <span className={cx(CheckboxContainer, value && CheckboxActive, disabled && CheckboxDisabled)}>
+      <span
+        className={cx(
+          CheckboxContainer,
+          active && CheckboxActive,
+          checked && CheckboxChecked,
+          disabled && CheckboxDisabled,
+          indeterminate && CheckboxIndeterminate
+        )}>
         <Check />
         <input
           ref={ref}

@@ -9,5 +9,10 @@
     "icons/*.js": true,
     "icons/*.d.ts": true,
     "icons/*.js.map": true,
+  },
+  "files.associations": {
+    "*.html": "html",
+    "*.ks": "plaintext",
+    "stdio.h": "c"
   }
 }

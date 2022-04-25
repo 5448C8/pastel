@@ -11,11 +11,13 @@ const BasicTag = css`
   padding: 0 12px;
   display: inline-flex;
 
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 13px;
+  line-height: 18px;
 
   color: var(--info-5);
   align-items: center;
+
+  margin-right: 6px;
 `;
 
 const DeleteIcon = css`
