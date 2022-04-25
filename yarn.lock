@@ -1061,14 +1061,6 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@linaria/atomic@^3.0.0-beta.15":
-  version "3.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@linaria/atomic/-/atomic-3.0.0-beta.15.tgz#6cf967417412cc9048bfb30fbdf2dba6c3e17e24"
-  integrity sha512-d5uXRFTR+wc0Dpmh5fr6ogp4IE0+jO8w7+VG8HNMf4fziUU9CQaBbk9Dr+kxzW9wpnDGI5SpAMSPvzGORcZ7Tw==
-  dependencies:
-    "@linaria/utils" "^3.0.0-beta.15"
-    postcss "^8.3.11"
-
 "@linaria/babel-preset@^3.0.0-beta.15":
   version "3.0.0-beta.15"
   resolved "https://registry.yarnpkg.com/@linaria/babel-preset/-/babel-preset-3.0.0-beta.15.tgz#d8bd3d00d1f8b51209054fe04b0245a94c6f606c"
@@ -1216,11 +1208,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
-
-"@stitches/core@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@stitches/core/-/core-1.2.7.tgz#9d421b0635ee2acd65a8f0c078d5f5be8fc81766"
-  integrity sha512-2bSto+jqPjeODcdNvwuXduhUH5b1bROmGNSBj/EVOGk8a8dIdCnoZyXYSxdKlKA9SnedBg94qNO0QQAMvTAz3w==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.8"
@@ -2716,7 +2703,7 @@ postcss@8.4.5:
     picocolors "^1.0.0"
     source-map-js "^1.0.1"
 
-postcss@^8.3.11, postcss@^8.4.12:
+postcss@^8.4.12:
   version "8.4.12"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.12.tgz#1e7de78733b28970fa4743f7da6f3763648b1905"
   integrity sha512-lg6eITwYe9v6Hr5CncVbK70SoioNQIq81nsaG86ev5hAidQvmOeETBqs7jm43K2F5/Ley3ytDtriImV6TpNiSg==

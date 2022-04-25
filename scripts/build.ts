@@ -109,7 +109,6 @@ export async function babel(fileName: string, global = false) {
         "@linaria",
         {
           evaluate: true,
-          atomize: require("@linaria/atomic").atomize,
           babelOptions: {
             presets: ["@babel/preset-typescript"],
           },
