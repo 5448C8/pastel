@@ -7,10 +7,10 @@
     "./build/global.js"
   ],
   "files": [
-    "./build/**/*",
-    "./icons/*.js",
-    "./icons/*.map",
-    "./icons/*.d.ts"
+    "build/**/*",
+    "icons/*.js",
+    "icons/*.map",
+    "icons/*.d.ts"
   ],
   "scripts": {
     "clean": "rm -rf ./build tsconfig.build.tsbuildinfo",
