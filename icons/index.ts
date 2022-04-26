@@ -1,6 +1,10 @@
 export { default as Add } from "./Add";
+export { default as BarGraphs } from "./BarGraphs";
+export { default as Charts } from "./Charts";
+export { default as Check } from "./Check";
 export { default as Dashboard } from "./Dashboard";
 export { default as Delete } from "./Delete";
 export { default as Edit } from "./Edit";
+export { default as Organization } from "./Organization";
 export { default as Projects } from "./Projects";
 export { default as Trash } from "./Trash";
