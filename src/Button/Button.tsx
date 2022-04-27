@@ -43,7 +43,7 @@ const BasicButton = css`
 
   &:not([disabled]):active,
   &:not([disabled]):focus {
-    box-shadow: 0px 0px 0px 4px #bdbada;
+    box-shadow: 0px 0px 0px 4px var(--primary-2);
   }
   &.${DangerButton}:not([disabled]):active,
   &.${DangerButton}:not([disabled]):focus {
