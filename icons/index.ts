@@ -2,6 +2,7 @@ export { default as Add } from "./Add";
 export { default as BarGraphs } from "./BarGraphs";
 export { default as Charts } from "./Charts";
 export { default as Check } from "./Check";
+export { default as Close } from "./Close";
 export { default as Dashboard } from "./Dashboard";
 export { default as Delete } from "./Delete";
 export { default as Edit } from "./Edit";
