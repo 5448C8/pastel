@@ -9,7 +9,9 @@ const HasOnlyIcon = css``;
 const BasicButton = css`
   outline: none;
   font-family: inherit;
-  display: inline-flex;
+  display: inline-block;
+
+  text-align: center;
 
   border-radius: 4px;
   &.${HasOnlyIcon} {
@@ -17,7 +19,6 @@ const BasicButton = css`
     padding: 0;
     height: 34px;
     width: 34px;
-    justify-content: center;
   }
   color: var(--text-default);
   border: none;
@@ -30,8 +31,6 @@ const BasicButton = css`
   line-height: 16px;
 
   transition: box-shadow 0.5s;
-
-  align-items: center;
 
   & .pastel-icon:not(:only-child) {
     margin-right: 10px;
@@ -251,7 +250,7 @@ export { ForwardedLinkButton as LinkButton };
 const BasicIconButton = css`
   outline: none;
   font-family: inherit;
-  display: inline-flex;
+  display: inline-block;
   background: transparent;
   transition: background 0.2s ease-in-out;
   border: none;
