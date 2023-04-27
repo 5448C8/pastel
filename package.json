@@ -13,7 +13,7 @@
     "icons/*.d.ts"
   ],
   "scripts": {
-    "clean": "rm -rf ./build tsconfig.build.tsbuildinfo",
+    "clean": "rm -rf ./build tsconfig.build.tsbuildinfo rm -rf ./build tsconfig.icons.tsbuildinfo",
     "build:ts": "tsc --project tsconfig.build.json && tsc --project tsconfig.icons.json",
     "build:babel": "ts-node --skipProject scripts/build.ts",
     "build": "yarn clean && yarn build:ts && yarn build:babel",
